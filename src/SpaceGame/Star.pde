@@ -4,8 +4,9 @@ class Star {
 
   //Constructer
   Star() {
-    this.x = x;
-    this.y = y;
+    
+    this.x = int(random(width));
+    this.y = -10;
     w = 5;
     h = 30;
     speed = int(random(1, 4));
